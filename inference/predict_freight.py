@@ -1,8 +1,7 @@
 import joblib
 import pandas as pd
 
-MODEL_PATH = r"C:\Users\dell\OneDrive\Desktop\New Folder\Projects using DS\Invoice\models\predict_freight_model.pkl"
-
+MODEL_PATH = "models/predict_freight_model.pkl"
 
 def load_model(model_path: str = MODEL_PATH):
     """
